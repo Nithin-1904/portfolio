@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="font-roboto">
+  <!--intro-->
+  <div class="h-[50vh] lg:h-screen bg-gradient-to-t from-indigo-200">
+    <nav class=" w-full fixed top-0 bg-red-50">
+      <div class="container mx-auto py-5 flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <img class="w-8" src="/images/profile-pic.png" alt="">
+          <span class="text-2xl font-bold text-mustard">Nithin Sarode</span>
+        </div>
+        <ul class="hidden md:flex space-x-10 text-gray-600 font-bold text-sm uppercase">
+          <li class="hover:text-gray-500">
+            <a href="#">Home</a>
+          </li>
+          <li class="hover:text-gray-500">
+            <a href="#">Experience</a>
+          </li>
+          <li class="hover:text-gray-500">
+            <a href="#">Projects</a>
+          </li>
+          <li class="hover:text-gray-500">
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+        <img src="images/moon.png" class="hidden md:block w-5 cursor-pointer items-center" alt="">
+        <div id="ham" class="space-y-1 md:hidden cursor-pointer z-20">
+          <div id="h1" class="w-6 h-0.5 bg-black"></div>
+          <div id="h2" class="w-6 h-0.5 bg-black"></div>
+          <div id="h3" class="w-6 h-0.5 bg-black"></div>
+        </div>
+        <ul id="menu"
+          class="hidden bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white uppercase text-center">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Experience</a>
+          </li>
+          <li>
+            <a href="#">Projects</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--intro page-->
+    <!--image-->
+    <img class="bottom-0 right-0" src="images/8-removebg.png" alt="">
+  </div>
+  <script src="./app.js"></script>
+</body>
+
+</html>
